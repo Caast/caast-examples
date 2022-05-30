@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caast Examples - Content card</title>
+
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script defer src="index.js"></script>
+    <style>
+      * {
+        font-family: "Open Sans", sans-serif;
+      }
+
+      .line-clamp-3 {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+      }
+    </style>
+  </head>
+
+  <body class="pt-14 bg-gray-600">
+    <header class="fixed h-14 top-0 left-0 right-0 bg-white flex p-4 shadow-md">
+      <img
+        src="https://uploads-ssl.webflow.com/5ebcfb1b1d09c98536625cfa/60758fabce377b0fb9a74809_logo-b-text-left.png"
+        class="max-h-6"
+      />
+    </header>
+    <main class="w-full md:w-2/4 lg:w-3/5 xl:w-3/5 mx-auto">
+      <div
+        data-caast-embed
+        data-caast-id="07403760c4e54f37a4cc81c98b71bc85"
+      ></div>
+    </main>
+  </body>
+</html>
